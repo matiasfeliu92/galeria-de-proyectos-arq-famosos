@@ -14,6 +14,8 @@ fetch('./json/obrasArq.json')
             `)
 
             $('.imgObras').click(() => {
+
+
                 $('.modal-content').append(`
                 <h3>${obra.reseña}</h3>
                 `)
